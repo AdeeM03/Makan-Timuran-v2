@@ -8,10 +8,13 @@ Website ini dikembangkan ulang dengan dilengkapi sistem **login member, role adm
 ![IMG](https://github.com/AdeeM03/Makan-Timuran-v2/blob/5e565789e2f4da22f883b37ff612e80d4ab60d61/IMG/Screenshot%202025-12-20%20203623.png)
 ![IMG](https://github.com/AdeeM03/Makan-Timuran-v2/blob/ecf8be5a10df1c9a6c7e1322158f42dd5bdaf05d/IMG/Screenshot%202025-12-20%20205423.png)
 
+## 🔐 User Login
+###  Akun Admin
+- **Username** : `admin1`
+- **Password** : `1admin`
 ---
 
 ## ✨ Fitur Utama
-
 ### 👤 Fitur Member
 - Login & Logout menggunakan session PHP
 - Password terenkripsi (`password_hash`)
@@ -32,10 +35,7 @@ Website ini dikembangkan ulang dengan dilengkapi sistem **login member, role adm
 - Integrasi Google Maps
 - CRUD dibatasi khusus admin
 
----
-
-## ⚙️ Fitur JavaScript
-
+### ⚙️ Fitur JavaScript
 - Highlight menu navigasi otomatis
 - Scroll to Top button
 - Hero text fade-in animation
@@ -55,6 +55,31 @@ Website ini dikembangkan ulang dengan dilengkapi sistem **login member, role adm
 | PHP Native | Backend & authentication |
 | MySQL | Database |
 | Apache (XAMPP) | Web server |
+
+---
+
+## 🗄️ Struktur Database (Ringkas)
+### users
+- id
+- username
+- password (hashed)
+- role (admin / member)
+
+### user_sessions
+- user_id (unique)
+- last_activity
+- is_active
+
+### places
+- name
+- city
+- address
+- specialty
+- hours
+- phone
+- lat
+- lng
+- image
 
 ---
 
