@@ -3,8 +3,10 @@
 **Makan Timuran** adalah sebuah website berbasis **PHP, MySQL, dan JavaScript** yang dibuat untuk memperkenalkan sekaligus melestarikan kekayaan kuliner tradisional dari **Provinsi Jawa Timur**.  
 Website ini dikembangkan ulang dengan dilengkapi sistem **login member, role admin, dashboard admin, serta monitoring user online secara realtime**.
 
-![IMG](https://github.com/AdeeM03/Makan-Timuran/blob/ba7cbcd0e555ef22f819f86d8b0c85ab12b051e6/IMG/ss1.png)
-![IMG](https://github.com/AdeeM03/Makan-Timuran/blob/732722d779227fd1165b486b459e82ff80b3b5c3/IMG/ss2.png)
+![IMG](https://github.com/AdeeM03/Makan-Timuran-v2/blob/5e565789e2f4da22f883b37ff612e80d4ab60d61/IMG/Screenshot%202025-12-20%20203554.png)
+![IMG](https://github.com/AdeeM03/Makan-Timuran-v2/blob/5e565789e2f4da22f883b37ff612e80d4ab60d61/IMG/Screenshot%202025-12-20%20203616.png)
+![IMG](https://github.com/AdeeM03/Makan-Timuran-v2/blob/5e565789e2f4da22f883b37ff612e80d4ab60d61/IMG/Screenshot%202025-12-20%20203623.png)
+![IMG](https://github.com/AdeeM03/Makan-Timuran-v2/blob/ecf8be5a10df1c9a6c7e1322158f42dd5bdaf05d/IMG/Screenshot%202025-12-20%20205423.png)
 
 ---
 
