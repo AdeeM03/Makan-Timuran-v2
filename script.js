@@ -152,18 +152,3 @@ function logout() {
     window.location.href = "login.html";
   });
 }
-
-setInterval(() => {
-  fetch("ping.php");
-  fetch("online_users.php")
-    .then(res => res.json())
-    .then(data => {
-      const ul = document.getElementById("online-users");
-      if (!ul) return;
-      ul.innerHTML = "";
-      data.forEach(u => {
-        ul.innerHTML += `<li>🟢 ${u.username}</li>`;
-      });
-    });
-}, 5000);
-
