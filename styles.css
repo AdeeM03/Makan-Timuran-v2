@@ -714,3 +714,100 @@ section:hover {
     padding: 6px 10px;
   }
 }
+
+/* =========================
+   AESTHETIC ADMIN DASHBOARD
+========================= */
+
+/* Section spacing */
+.container h2 {
+  margin-bottom: 14px;
+}
+
+/* ===== TABLE ===== */
+.admin-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 16px;
+}
+
+.admin-table thead th {
+  padding: 14px 18px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  color: #ffb74d;
+  text-align: left;
+}
+
+.admin-table tbody tr {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  transition: all 0.25s ease;
+}
+
+.admin-table tbody tr:hover {
+  background: rgba(255, 183, 77, 0.18);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.admin-table td {
+  padding: 18px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+/* Text hierarchy */
+.admin-table td:first-child {
+  font-weight: 600;
+  color: #fff;
+}
+
+.admin-table td:nth-child(2) {
+  color: #ddd;
+}
+
+.admin-table td:nth-child(3) {
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.admin-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.admin-actions .cta-btn {
+  padding: 7px 18px;
+  font-size: 13px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffa726, #ff9800);
+  color: #000;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.admin-actions .cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 167, 38, 0.5);
+}
+
+/* Delete button */
+.admin-actions .delete-btn {
+  background: linear-gradient(135deg, #ff7043, #e53935);
+  color: #fff;
+}
+
+.admin-actions .delete-btn:hover {
+  box-shadow: 0 6px 18px rgba(255, 112, 67, 0.5);
+}
+
+/* Empty state */
+.admin-table tbody tr td[colspan] {
+  text-align: center;
+  color: #aaa;
+  padding: 30px;
+}
