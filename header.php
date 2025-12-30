@@ -41,7 +41,7 @@ if (isset($_SESSION["user_id"])) {
                     </li>
                 <?php endif; ?>
     
-                <li class="username">👤 <?= $_SESSION['username']; ?></li>
+                <li class="username"> <?= $_SESSION['username']; ?></li>
                 <li><a href="logout.php" class="logout">Logout</a></li>
     
             <?php else: ?>
