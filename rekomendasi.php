@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,7 @@
 </head>
 
 <body>
-<?php include "header.php"; ?>
+  <?php include "header.php"; ?>
 
   <section class="hero">
     <div class="hero-overlay"></div>
@@ -29,10 +30,10 @@
 
   <section>
     <?php if (isset($_SESSION["role"]) && $_SESSION["role"] === "admin"): ?>
-    
+
       <section class="container">
-        <h2>Tambah Tempat Rekomendasi (Admin)</h2>
-    
+        <h2>Tambah Tempat Rekomendasi</h2>
+
         <form class="contact-form" method="POST" action="add_place.php">
           <input type="text" name="name" placeholder="Nama Tempat" required>
           <input type="text" name="city" placeholder="Kota" required>
@@ -44,7 +45,7 @@
           <button class="cta-btn">Tambah Tempat</button>
         </form>
       </section>
-    
+
     <?php endif; ?>
   </section>
 
@@ -53,6 +54,7 @@
       <p>© 2025 Makan Timuran. Semua hak cipta dilindungi.</p>
     </div>
   </footer>
-  
+
 </body>
+
 </html>
